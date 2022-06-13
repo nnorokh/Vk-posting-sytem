@@ -1,0 +1,126 @@
+body{
+    background: #E8E8E8;
+
+    font-weight: 100;
+    font-family: 'Roboto Condensed', 'Open Sans', sans-serif;
+}
+.container{
+    width: 40%;
+    min-height: 500px;
+
+    display: block;
+
+    margin: 5% auto 0 auto;
+
+    background: white;
+
+    border-radius: 15px;
+
+    padding-top: 2%;
+    padding-bottom: 1%;
+
+    margin-bottom: 10%;
+}
+.vk{
+    display: block;
+
+    width: 90%;
+    margin: 0 auto 5% auto;
+
+    border: 1px solid black;
+
+    border-radius: 10px;
+    padding: 2%;
+
+    background: dodgerblue;
+
+}
+
+.vk_access_token{
+    text-align: center;
+    display: inline-block;
+    width: 60%;
+
+    margin: 0 auto 0 auto;
+}
+.vk_access_token input{
+    border: none;
+    padding: 2%;
+
+    border-radius: 10px;
+
+    min-height: 30px;
+    width: 70%;
+}
+.vk_access_token button{
+    background: white;
+    border: none;
+
+    padding: 3%;
+
+    border-radius: 10px;
+
+    margin-left: 10px;
+    transition: 0.5s all;
+}
+.vk_access_token button:hover{
+    transform: scale(105%);
+
+    transition: 0.5s all;
+}
+.vk_access_token input:active{
+    border: 1px solid white;
+}
+.vk-logo{
+    font-size: 30px;
+    display: inline-block;
+}
+.vk_a{
+    border: 1px solid white;
+    padding: 1%;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+
+    text-align: center;
+
+    transition: 0.5s all;
+
+    margin-left: 20px;
+}
+.vk_a:hover{
+    border: 1px solid tomato;
+    font-weight: 300;
+    color: tomato;
+    transition: 0.5s all;
+}
+
+/* Post settings */
+.vk_post_setting{
+    display: block;
+    width: 70%;
+    margin: 1% auto 1% auto;
+}
+.vk_post_setting input[type=number]{
+    width: 41%;
+    padding: 1%;
+    border-radius: 3px;
+    border: none;
+}
+.vk_post_setting button{
+    display: block;
+    width: 30%;
+    padding: 1%;
+    margin: 3% auto 1% auto;
+    background: white;
+    border: none;
+    border-radius: 3px;
+}
+.newAccountTitle{
+    text-align: center;
+    font-weight: 300;
+}
+.difcol{
+    background: grey;
+}

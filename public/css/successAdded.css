@@ -1,0 +1,27 @@
+body{
+    background: #E8E8E8;
+
+    font-weight: 100;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.container{
+    width: 40%;
+    min-height: 500px;
+
+    display: block;
+
+    margin: 5% auto 0 auto;
+
+    background: white;
+
+    border-radius: 15px;
+
+    padding-top: 2%;
+    text-align: center;
+
+    padding-bottom: 2%;
+    margin-bottom: 10%;
+}
+.post{
+    height: 30px;
+}

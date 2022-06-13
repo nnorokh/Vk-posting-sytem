@@ -1,0 +1,106 @@
+body{
+    background: 	#E8E8E8;
+}
+.container{
+    display: block;
+    width: 40%;
+
+    margin: 5% auto 0 auto;
+
+    background: white;
+
+    min-height: 600px;
+
+    border-radius: 1%;
+
+    text-align: center;
+}
+.container h1{
+    font-weight: 100;
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+}
+.form input{
+    width: 80%;
+    min-height: 50px;
+
+    margin-bottom: 3%;
+    border-radius: 20px;
+
+    border: 1px solid tomato;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    font-size: 15px;
+
+    transition: 1s all;
+}
+.form input:focus{
+    border: 1px solid black;
+    transform: scale(105%);
+    transition: 1s all;
+}
+.form button{
+    width: 30%;
+    background: white;
+    padding: 5px;
+
+    border-radius: 10px;
+
+    min-height: 30px;
+
+    font-size: 25px;
+
+    font-weight: 100;
+
+    border: 1px solid black;
+
+    color: tomato;
+
+    font-family: 'Open Sans', sans-serif;
+
+    margin-top: 3%;
+    transition: 0.5s all;
+
+    padding: 8px;
+}
+.form button:hover{
+    transition: 0.5s all;
+
+    background: tomato;
+    color: white;
+}
+.or{
+    font-weight: 100;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+
+    height: 50px;
+}
+.google{
+    height: 50px;
+    line-height: 50px;
+    transition: 0.5s all;
+}
+.google:hover{
+    cursor: pointer;
+    transform: scale(105%);
+    transition: 0.5s all;
+}
+
+.p-in-error{
+    color: tomato;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+}
+.google{
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 10%;
+    border: 1px solid black;
+
+    border-radius: 15px;
+}
