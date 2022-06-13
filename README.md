@@ -20,3 +20,7 @@
 - To add post, firstly you need get vk access token, then give it access token to my site form. And then, my site use vk api functions to add posts.
 - Also, for autenfication I used cookies.
 
+
+## How to use
+
+<a href="https://youtu.be/lh4h4FsqWEk">Video on YouTube.</a>
